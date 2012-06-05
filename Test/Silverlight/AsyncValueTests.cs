@@ -3,6 +3,7 @@ using System.Windows;
 using Microsoft.Silverlight.Testing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PixelLab.SL;
+using System.Threading.Tasks;
 
 namespace PixelLab.Test.SL
 {
@@ -67,7 +68,7 @@ namespace PixelLab.Test.SL
 
         // TODO: test error async
 
-        private void asyncValue_handleLoad(IAsyncValue<int> asyncValue)
+        private void asyncValue_handleLoad(Task<int> asyncValue)
         {
             EnqueueTestComplete();
             Assert.AreEqual(LoadState.Loaded, asyncValue.State);

@@ -37,8 +37,6 @@
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="AsBigAsYouWantPanel.cs" />
-    <Compile Include="AsyncValue.cs" />
-    <Compile Include="AsyncValueLoadException.cs" />
     <Compile Include="ScrollBehavior.cs" />
     <Compile Include="CollapseOnDisableBehavior.cs" />
     <Compile Include="DiscreteSlider.cs" />
@@ -51,9 +49,7 @@
       <DependentUpon>GridLineControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Helpers_Phone.cs" />
-    <Compile Include="IAsyncValue.cs" />
     <Compile Include="IsolatedStorage\IsolatedFileSystemInfo.cs" />
-    <Compile Include="LoadState.cs" />
     <Compile Include="ModalControl.cs" />
     <Compile Include="PanZoomControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
